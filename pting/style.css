@@ -1,0 +1,290 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html
+{
+    font-size: 10px;
+}
+header
+{
+    background-image: url(./Images/pting-background-img.jpg);
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    background-blend-mode:color;
+    height: 93vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+nav
+{
+    position: absolute;
+    height: 10rem;
+    width: 92%;
+    padding:3rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    border-bottom: 0.1rem solid white;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    justify-content: space-between;
+    /* background-color:rgb(194, 150, 235); */
+}
+div>span
+{
+    font-size: 2.5rem;
+    position: absolute;
+    margin-top: 1.4rem;
+    color: white;
+    font-weight: bold;
+}
+ul
+{
+    list-style-type: none;
+}
+ul li
+{
+    font-size: 1.8rem;
+}
+.navs
+{
+    width: 80rem;
+    height: 6rem;
+    font-size: larger;
+    font-weight: bold;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a
+{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover, a:focus
+{
+    color: blue;
+}
+.login
+{
+    font-weight: bold;
+    position: relative;
+    top: 1.4rem;
+    background-color: rgb(81, 211, 150);
+    border: none;
+    outline: none;
+    width: 10rem;
+    height: 3rem;
+    border-radius: 2rem;
+    color: white;
+}
+button:hover, button:focus, div.header-content>button:hover
+{
+    background-color: rgb(55, 55, 245);
+    cursor: pointer;
+}
+.header-content
+{
+    position: relative;
+    height: 2.5rem;
+    width: 87rem;
+    /* background-color: aqua; */
+    top: calc(30% + 60px);
+    left: calc(50% - 435px);
+    padding: 2rem;
+    text-align: center;
+}
+h1
+{
+    /* background-color: aquamarine; */
+    height: fit-content;
+    padding: 0.5rem;
+    font-weight: bolder;
+    font-size: 3.5rem;
+    font-family: sans-serif;
+    margin-bottom: 3.5rem;
+    color: white;
+}
+
+.colored-text
+{
+    color: rgb(31, 236, 100);
+}
+div.header-content>p
+{
+    font-size:1.7rem;
+    font-family: sans-serif;
+    line-height: 2.5rem;
+    /* background-color: black; */
+    color: white;
+}
+div.header-content>button
+{
+    margin-top: 3rem;
+    background-color: rgb(81, 211, 150);
+    border: none;
+    outline: none;
+    width: 20rem;
+    height: 3rem;
+    border-radius: 2rem;
+    color: white;
+}
+#menu
+{
+    position: absolute;
+    bottom: 8rem;
+    /* left: 1100px; */
+    right: 5rem;
+
+}
+
+section.flex
+{
+    display: flex;
+    flex-direction: row;
+}
+.grid
+{
+    /* border: 2px solid black; */
+    width: 122.6rem;
+    height: 60rem;
+    /* background-color: aqua; */
+    display: grid;
+    grid-template-columns:repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 2rem;
+    padding: 6.5rem;
+    font-family: sans-serif;
+}
+div.section-1
+{
+    font-size: 2rem;
+   font-family: sans-serif;
+   padding: 60px;
+}
+#web
+{
+    font-size: 1.6rem;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+#software
+{
+    font-size: 1.6rem;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+#app-dev
+{
+    font-size: 1.6rem;
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+#brand
+{
+    font-size: 1.6rem;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.section-2
+{
+    font-size: 1.6rem;
+    display: flex;
+    width: 100%;
+    height: 50vh;
+    margin-bottom: 10rem;
+}
+#who
+{
+    width: 50%;
+    /* text-align: center; */
+    font-size: 3rem;
+    margin-left: 5rem;
+}
+#who+div strong
+{
+    font-size: 3rem;
+}
+.pting-section-2
+{
+    margin-top: 5rem;
+    font-size: 2rem;
+    
+}
+.section-3
+{
+    display: flex;
+    width: 100%;
+    font-size: 1.8rem;
+}
+.why
+{
+    width: 50%;
+    /* text-align: center; */
+    margin-left: 5rem;
+    font-size: 2.5rem;
+}
+#why
+{
+    margin-bottom: 3rem;
+}
+.section 
+{
+    font-size: 2rem;
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    gap: 5rem;
+}
+b
+{
+    font-weight: normal;
+}
+footer
+{
+    margin-top: 10rem;
+    background-color: rgba(73, 73, 73, 0.1);
+    padding: 5rem 0;
+}
+footer>div>span
+{
+    color: black;
+    font-weight: normal;
+    font-size: 3rem;
+}
+.footer
+{
+    display: flex;
+    justify-content: space-between;
+}
+.contact
+{
+    font-size: 1.8rem;
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    gap: 1.6rem;
+    margin-left: 20rem;
+}
+.faq
+{
+    font-size: 1.8rem;
+}
+.faq>ul
+{
+    line-height: 4.2rem;
+}
+.faq>ul>li a
+{
+    color: black;
+}
+.faq>ul>li a:hover 
+{
+    color: blue;
+}
